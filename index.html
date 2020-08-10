@@ -17,16 +17,17 @@
     <div class="weather-app">
       <form class="search-form" id="search-form">
         <div class="row">
-          <div class="col-6">
+          <div class="col-12">
+            
             <input type="search" placeholder="Type a city.." autofocus="on" autocomplete="off" id="city-input"
               class="form-control shadow-sm" />
           </div>
-          <div class="col-3">
-            <input type="submit" value="Search" class="form-control btn btn-primary shadow-sm" />
+          <div class="col-12">
+            <input type="submit" value="Search" class="form-control btn btn-warning shadow-sm btn-lg btn-block" />
           </div>
 
-          <div class="col-3">
-            <button class="btn btn-success w-100" id="current-location-button">
+          <div class="col-12">
+            <button class="btn btn-info w-100 btn btn-secondary btn-lg btn-block" id="current-location-button">
               Current
             </button>
           </div>
@@ -38,16 +39,16 @@
         <li id="description"></li>
       </ul>
       <div class="row">
-        <div class="col-6">
+        <div class="col-12">
           <div class="clearfix">
-            <img src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png" alt="Cloudy icon"
-              class="weather-icon float-left" />
-            <div class="float-left">
+            <img src="https://icons-for-free.com/iconfiles/png/512/sunny+sunny+weather+icon-1320196571395671160.png" alt="Cloudy icon"
+              class="weather-icon" />
+            
               <span class="temperature" id="temperature">19</span><span class="units">°C</span>
             </div>
           </div>
         </div>
-        <div class="col-6">
+        <div class="col-12">
           <ul>
             <li>Humidity: <span id="humidity"></span>%</li>
             <li>Wind: <span id="wind"></span> km/h</li>
